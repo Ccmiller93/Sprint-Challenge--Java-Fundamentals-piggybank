@@ -59,7 +59,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
     - The name of a single coin
     - The name of more than one coin
 - [ ] Create an endpoint http://localhost:2019/total that prints to console the contents of the Piggy Bank as follows and returns an HTTP Status of OK:
-
+ 
 In your console in IntelliJ you should see:
 
 ```TEXT
