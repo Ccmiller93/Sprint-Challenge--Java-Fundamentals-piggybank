@@ -1,17 +1,18 @@
 package com.lambdaschool.piggybank.controllers;
 
-import com.lambdaschool.piggybank.models.Pig;
+import com.lambdaschool.piggybank.models.Coin;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class HelperFunctions
 {
-    public static List<Pig> findCoins(List<Pig> fullList, CheckPiggyBank tester)
+    public static List<Coin> findCoins(List<Coin> fullList, CheckPiggyBank tester)
     {
-        List<Pig> tempPig = new ArrayList<>();
+        List<Coin> tempPig = new ArrayList<>();
 
-        for (Pig c : fullList)
+        for (Coin c : fullList)
         {
             if (tester.test(c))
             {

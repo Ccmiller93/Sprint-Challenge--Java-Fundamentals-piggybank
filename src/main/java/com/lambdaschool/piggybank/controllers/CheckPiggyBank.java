@@ -1,8 +1,9 @@
 package com.lambdaschool.piggybank.controllers;
 
-import com.lambdaschool.piggybank.models.Pig;
+import com.lambdaschool.piggybank.models.Coin;
+
 
 public interface CheckPiggyBank
 {
-    boolean test(Pig c);
+    boolean test(Coin c);
 }

@@ -27,6 +27,9 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 2. Explain how you connected your solution to a database, including what code was necessary for this task.
 
 3. Explain the advantages of the project structure (packages) you used.
+controllers - handles the getters and setters
+   models - 
+   repositories - 
 
 4. Explain the differences between Abstract Classes and Interfaces, including how they are used in your application?
 an interface is a seperated by class and keywords 

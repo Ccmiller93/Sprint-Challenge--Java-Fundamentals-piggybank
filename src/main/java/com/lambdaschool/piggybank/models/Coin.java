@@ -1,3 +1,10 @@
+//  Create a model Coin to represent the table for the piggy bank
+//        - Each row in the table contains: (use the provided data.sql as a guide)
+//        - The number of coins in this group
+//        - The face value of the coins in the group
+//        - The name of a single coin
+//        - The name of more than one coin
+
 package com.lambdaschool.piggybank.models;
 
 import javax.persistence.Entity;
@@ -8,7 +15,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "coins")
-public class Pig
+public class Coin
 {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -19,7 +26,7 @@ public class Pig
     private long value;
     private int quantity;
 
-    public Pig(String name,
+    public Coin(String name,
                String nameplural,
                long value,
                int quantity)
@@ -30,7 +37,7 @@ public class Pig
         this.quantity = quantity;
     }
 
-    public Pig()
+    public Coin()
     {
     }
 
