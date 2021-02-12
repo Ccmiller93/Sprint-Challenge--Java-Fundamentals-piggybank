@@ -106,7 +106,7 @@ In your solution, it is essential that you follow best practices and produce cle
 ### Task 3: Stretch Goals
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
-
+ 
 - [ ] Add the ability to remove coins from the piggy bank
   - Prevent taking more coins than present in the piggy bank
   - Coins do not have to be removed in the same quantity that were added. For example based on the main program above, removing 3 dimes would be allowed. The Piggy Bank should adjust appropriately.
