@@ -29,6 +29,8 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 3. Explain the advantages of the project structure (packages) you used.
 
 4. Explain the differences between Abstract Classes and Interfaces, including how they are used in your application?
+an interface is a seperated by class and keywords 
+   abstract classes have a function
 
 ## Instructions
 
